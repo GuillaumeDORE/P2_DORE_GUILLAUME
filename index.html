@@ -1,45 +1,219 @@
-<!DOCTYPE html> 
-<html>
-    <!-- En tête de la page-->
-    <head>
-        <meta charset="utf-8"/>
-        <title>CV Guillaume Doré</title>
-        <link href="style.css" rel="stylesheet"/>
-    </head>
-    <!--Corps de la page-->
-    <body>
-         <header>
-            <!-- titre et courte description-->
-            <h1>Guillaume Doré</h1>
-            <p>Developpeur Web</p>
-         </header>
-        <aside>
+<!DOCTYPE html>
+<html lang="fr">
+<!-- En tête de la page-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Guillaume Doré</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<!--Corps de la page-->
+
+<body>
+
+    <div class="container">
+
+        <aside id="info">
+
             <!--Photo, info, qualités, coordonnées, centres d'interets-->
-            <img src="images/photocv" alt="photo de cv"/>
-            <h2>Introduction</h2>
-            <p>blalbalblalblzlbalga l</p>
-            <h2>Qualités</h2>
-            <p>blalbalblalblzlbalga l</p>
-            <p>blalbalblalblzlbalga l</p>
-            <h2><img src="#" alt="" /> Cordonnées</h2> <!-- ajouter logo-->
-            <p>blalbalblalblzlbalga l</p>
-            <p>blalbalblalblzlbalga l</p>
+
+            <header class="photo">
+
+                <img src="images/photo_cv.jpg" alt="photo de cv" id="photo" />
+            </header>
+
+            <section>
+
+                <h2>Contact</h2>
+
+                <div class="infocontent">
+                    <p>Adresse</p>
+                    <p><strong>Nantes</strong>, France</p>
+                    <br />
+                    <p>Téléphone</p>
+                    <p>06 32 64 62 04</p>
+                    <br />
+                    <p>Email</p>
+                    <p>guillaumedore45@gmail.com</p>
+                    <br />
+                    <p>Site Web</p>
+                    <p><a href="#">guillaumedore.com</a></p>
+                    <br />
+                    <p>Skype</p>
+                    <p>@Guillaumedore45</p>
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2>A propos de moi</h2>
+
+                <div class="infocontent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, volutpat vel ante id,
+                        tristique malesuada tellus. Maecenas nec tempor diam. Cras nec leo consectetur, efficitur ex
+                        feugiat, tristique dui. Suspendisse a diam ante.Maecenas nec tempor diam. Suspendisse a diam
+                        ante. Cras nec leo consectetur, efficitur ex feugiat, tristique dui. Suspendisse a diam ante.
+                        Quisque quis pulvinar nibh. Aenean laoreet est eget orci convallis, nec finibus enim faucibus.
+                        Nullam id risus hendrerit, cursus leo et, viverra eros. </p>
+                </div>
+
+            </section>
+
+            <footer>
+
+                <h2>Loisirs</h2>
+
+                <div class="infocontent">
+                    <ul id="loisirs">
+                        <li><img src="images/climb.png" class="logoloisir" alt="logo escalade" /></li>
+                        <li><img src="images/hiking.png" class="logoloisir" alt="logo randonnée" /></li>
+                        <li><img src="images/gamepad.png" class="logoloisir" alt="logo jeux vidéo" /></li>
+                    </ul>
+                </div>
+            </footer>
         </aside>
-        <section>
-            <!--Carrières et compétences-->
-            <h2>Carrières</h2>
-            <p>Blablalblalblalblalblalvl</p><p class="descri"> <!-- petit texte en italique --></p>
-            <h2>expériencex</h2>
-            <p>Blablalblalblalblalblalvl</p>
-        </section>
-        <section>
-            <h2>diplomes</h2>
-            <p>Blablalblalblalblalblalvlbla</p>
-            <h2>formations</h2>
-            <p>blalbalblalblzlbalga</p>
-        </section>
-        <footer>
-            <!--Besoin d'un footer?-->
-        </footer>
-    </body>
+
+        <main>
+
+            <header>
+                <!-- titre et courte description-->
+                <h1><em>Guillaume</em> Doré</h1>
+                <p><strong id="underline">Développeur Web</strong></p>
+            </header>
+
+            <section>
+
+                <h2><img src="images/certif.png" alt="icone certificat" class="logo" />Formation</h2>
+
+                <div class="mainbloc">
+
+                    <aside class="mainaside">
+                        <img src="images/dotcircle.png" alt="icone point dans cercle" class="dotpuce" />
+                        <div class="datelieu">
+                            <p>2019-2020</p>
+                            <p>Nantes</p>
+                        </div>
+                    </aside>
+                    <section class="maintxt">
+                        <h3>Openclassrooms</h3>
+                        <h4>Developpeur web junior</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, volutpat vel ante
+                            id, tristique malesuada tellus. Maecenas nec tempor diam. </p>
+                    </section>
+
+                </div>
+
+                <div class="mainbloc">
+
+                    <aside class="mainaside">
+                        <img src="images/circle.png" alt="icone point" class="puce" />
+                        <div class="datelieu">
+                            <p>2017-2019</p>
+                            <p>Rome</p>
+                        </div>
+                    </aside>
+                    <section class="maintxt">
+                        <h3>Baccalauréat</h3>
+                        <h4>Specialité scientifique</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, volutpat vel ante
+                            id, tristique malesuada tellus. Maecenas nec tempor diam. </p>
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2><img src="images/tools.png" alt="icone boite à outils" class="logo" />Expérience professionnelle
+                </h2>
+
+                <div class="mainbloc">
+
+                    <aside class="mainaside">
+                        <img src="images/dotcircle.png" alt="icone point dans cercle" class="dotpuce" />
+                        <div class="datelieu">
+                            <p>Mars 2018 - Poste actuel</p>
+                            <p>Paris</p>
+                        </div>
+                    </aside>
+                    <section class="maintxt">
+                        <h3>Développeur Web</h3>
+                        <h4>Developpeur web junior</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, volutpat vel ante
+                            id, tristique malesuada tellus. Maecenas nec tempor diam.</p>
+                    </section>
+
+                </div>
+
+                <div class="mainbloc">
+
+                    <aside class="mainaside">
+                        <img src="images/circle.png" alt="icone point" class="puce" />
+                        <div class="datelieu">
+                            <p>Mars 2018 - Poste actuel</p>
+                            <p>Paris</p>
+                        </div>
+                    </aside>
+                    <section class="maintxt">
+                        <h3>Développeur Web</h3>
+                        <h4>Developpeur web junior</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, volutpat vel ante
+                            id, tristique malesuada tellus. Maecenas nec tempor diam. </p>
+                    </section>
+
+                </div>
+
+                <div class="mainbloc">
+
+                    <aside class="mainaside">
+                        <img src="images/circle.png" alt="icone point" class="puce" />
+                        <div class="datelieu">
+                            <p>Mars 2018 - Poste actuel</p>
+                            <p>Paris</p>
+                        </div>
+                    </aside>
+                    <section class="maintxt">
+                        <h3>Développeur Web</h3>
+                        <h4>Developpeur web junior</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem neque, volutpat vel ante
+                            id, tristique malesuada tellus. Maecenas nec tempor diam.</p>
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section class="recommandations">
+
+                <h2><img src="images/stylo.png" alt="icone stylo" class="logo" />Recommandations</h2>
+
+                <div class="mainbloc">
+                    <section class="reco">
+                        <h3>Nom prénom</h3>
+                        <p class="postereco">Fonction dans l'entreprise</p>
+                        <p>Téléphone : 06 05 78 64 05</p>
+                        <p> Email: ififbvezbn@gmail.com</p>
+                    </section>
+                    <section class="reco">
+                        <h3>Nom prénom</h3>
+                        <p class="postereco">Fonction dans l'entreprise</p>
+                        <p>Téléphone : 06 05 78 64 05</p>
+                        <p> Email: ififbvezbn@gmail.com</p>
+                    </section>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+</body>
+
 </html>
