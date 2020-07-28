@@ -142,7 +142,7 @@ main h2{
 }
 
 /*--------Photo de CV---------*/
-header.photo{
+.photo{
     display: flex;
     align-items: center;
     justify-content: center;
