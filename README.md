@@ -1,6 +1,6 @@
 ## Transformez une maquette en site web  
 
-Projet n°2 Openclassroom dont le but est de coder un CV en HTML et CSS en se basant sur un maquette (modele_cv.png)  
+Projet n°2 Openclassroom dont le but est de coder un CV en HTML et CSS en se basant sur une maquette (modele_cv.png)  
 
 ## Adresse CV en ligne:  
 
